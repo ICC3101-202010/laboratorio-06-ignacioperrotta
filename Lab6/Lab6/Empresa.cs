@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 namespace Lab6
 {
     [Serializable]
@@ -54,14 +57,14 @@ namespace Lab6
         }
         public static Empresa Crear_empresa(List<Persona> persona_a_cargo, List<Persona> personal)
         {
-            List<Persona> persona_a_cargo1 = new List<Persona>();
-            List<Persona> personal1 = new List<Persona>();
-            List<Persona> nueva_lista = new List<Persona>();
-            List<Persona> nueva_lista2 = new List<Persona>();
             Console.Write("Nombre de la empresa:  ");
             string nombre_empresa = Console.ReadLine();
             Console.Write("Rut de la empresa(Con guión y sin puntos):  ");
             string rut_empresa = Console.ReadLine();
+            List<Persona> persona_a_cargo1 = new List<Persona>();
+            List<Persona> personal1 = new List<Persona>();
+            persona_a_cargo1 = Renovar(persona_a_cargo);
+            personal1 = Renovar(personal);
             Sección sección = new Sección("Sección POO", persona_a_cargo1[1]);
             List<Persona> bloque1 = new List<Persona>() { personal1[0], personal1[1] };
             Bloque Bloque1 = new Bloque("Bloque POO 1", persona_a_cargo1[2], bloque1);
@@ -70,6 +73,19 @@ namespace Lab6
             Departamento departamento = new Departamento("Departamento POO", persona_a_cargo1[0]);
             Empresa empresa = new Empresa(nombre_empresa, rut_empresa, new List<División>() {departamento, sección, Bloque1, Bloque2});
             return empresa;
+        }
+        public static List<Persona> Renovar<Persona>(List<Persona> p)
+        {
+            List<Persona> persona_a_cargo = p;
+            List<Persona> renovada = new List<Persona>();
+            Random azar = new Random();
+            while (persona_a_cargo.Count > 0)
+            {
+                int i = azar.Next(0, persona_a_cargo.Count - 1);
+                renovada.Add(persona_a_cargo[i]);
+                persona_a_cargo.RemoveAt(i);
+            }
+            return renovada;
         }
     }
 }
