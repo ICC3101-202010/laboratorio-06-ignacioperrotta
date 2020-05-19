@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{DE32DCD9-1C58-4D30-8E4A-390DCFFEC94B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab6/Empresa.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab6/Program.cs">
     <Files>
       <File FileName="Lab6/Program.cs" Line="8" Column="17" />
       <File FileName="Lab6/Empresa.cs" Line="82" Column="46" />
@@ -15,7 +15,7 @@
         <State name="__root__">
           <Node name="Lab6" expanded="True">
             <Node name="Lab6" expanded="True">
-              <Node name="Empresa.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

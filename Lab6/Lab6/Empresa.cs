@@ -44,7 +44,7 @@ namespace Lab6
             {
                 Console.WriteLine("El tipo de la división es : " + división.Clase);
                 Console.WriteLine("El nombre de la división es : " + división.Nombre);
-                Console.WriteLine("El encargado de la división es : " + división.Persona_cargo.Nombre + " " + división.Persona_cargo.Apellido + ", " + división.Persona_cargo.Rut);
+                Console.WriteLine("El encargado de la división es : " + división.Persona_a_cargo.Nombre + " " + división.Persona_a_cargo.Apellido + ", " + división.Persona_a_cargo.Rut);
                 if (división.Clase == "Bloque")
                 {
                     Console.WriteLine("El personal que hay en los bloques es:");

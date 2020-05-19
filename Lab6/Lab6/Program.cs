@@ -10,6 +10,7 @@ namespace Lab6
 {
     class MainClass
     {
+
         static private void cargar_empresa(Empresa empresa)
         {
             IFormatter formatter = new BinaryFormatter();
@@ -28,9 +29,27 @@ namespace Lab6
         }
         public static void Main(string[] args)
         {
-            Empresa empresa = new Empresa();
             List<Persona> personas_a_cargo = new List<Persona>();
             List<Persona> personal = new List<Persona>();
+            Persona p1 = new Persona("tony", "stark", "10405943-4", "Persona a cargo");
+            personas_a_cargo.Add(p1);
+            Persona p2 = new Persona("peter", "parker", "12493495-6", "Persona a cargo");
+            personas_a_cargo.Add(p2);
+            Persona p3 = new Persona("lionel", "messi", "14859405-k", "Persona a cargo");
+            personas_a_cargo.Add(p3);
+            Persona p4 = new Persona("Cristiano", "Ronaldo", "15498586-5", "Persona a cargo");
+            personas_a_cargo.Add(p4);
+            Persona p5 = new Persona("alessandra", "ambrossio", "13847596-6", "personal");
+            personal.Add(p5);
+            Persona p6 = new Persona("adriana", "lima", "14856485-0", "personal");
+            personal.Add(p6);
+            Persona p7 = new Persona("megan", "fox", "17597495-7", "personal");
+            personal.Add(p7);
+            Persona p8 = new Persona("ester", "exposito", "20174859-6", "personal");
+            personal.Add(p8);
+            Persona p9 = new Persona("mathild", "tantot", "20375947-k", "personal");
+            personal.Add(p9);
+            Empresa empresa = new Empresa();
             Console.WriteLine("Bienvenido");
             Console.WriteLine("¿Quiere utilizar un archivo para cargar la información de la empresa?");
             Console.WriteLine("1) Si");
@@ -74,14 +93,10 @@ namespace Lab6
                 Console.WriteLine("2) No");
                 input = Console.ReadLine();
             }
-            Persona p1 = new Persona("Lionel", "Messi", "20174985-4", "personal");
-            personal.Add(p1);
-            Persona p2 = new Persona("Adriana", "Lima", "21093187-4", "personal");
-            personal.Add(p2);
-            Persona p3 = new Persona("Peter", "Parker", "8667595-6", "persona a cargo");
-            personas_a_cargo.Add(p3);
-            Persona p4 = new Persona("Tony", "Stark", "10453856-5", "persona a cargo");
-            personas_a_cargo.Add(p4);
+            Console.WriteLine("");
+            
+            
         }
+
     }
 }
