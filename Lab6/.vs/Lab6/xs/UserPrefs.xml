@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{DE32DCD9-1C58-4D30-8E4A-390DCFFEC94B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab6/Persona.cs">
+    <Files>
+      <File FileName="Lab6/Program.cs" Line="1" Column="1" />
+      <File FileName="Lab6/Empresa.cs" Line="17" Column="10" />
+      <File FileName="Lab6/División.cs" Line="20" Column="6" />
+      <File FileName="Lab6/Área.cs" Line="16" Column="2" />
+      <File FileName="Lab6/Departamento.cs" Line="14" Column="10" />
+      <File FileName="Lab6/Sección.cs" Line="16" Column="2" />
+      <File FileName="Lab6/Bloque.cs" Line="15" Column="6" />
+      <File FileName="Lab6/Persona.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab6" expanded="True">
+            <Node name="Lab6" expanded="True">
+              <Node name="Persona.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Lab6 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

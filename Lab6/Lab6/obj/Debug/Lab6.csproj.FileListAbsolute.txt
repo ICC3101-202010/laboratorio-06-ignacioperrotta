@@ -1,0 +1,6 @@
+/Users/ignacioperrotta/Desktop/laboratorio-06-ignacioperrotta/Lab6/Lab6/bin/Debug/Lab6.exe
+/Users/ignacioperrotta/Desktop/laboratorio-06-ignacioperrotta/Lab6/Lab6/bin/Debug/Lab6.pdb
+/Users/ignacioperrotta/Desktop/laboratorio-06-ignacioperrotta/Lab6/Lab6/obj/Debug/Lab6.csprojAssemblyReference.cache
+/Users/ignacioperrotta/Desktop/laboratorio-06-ignacioperrotta/Lab6/Lab6/obj/Debug/Lab6.csproj.CoreCompileInputs.cache
+/Users/ignacioperrotta/Desktop/laboratorio-06-ignacioperrotta/Lab6/Lab6/obj/Debug/Lab6.exe
+/Users/ignacioperrotta/Desktop/laboratorio-06-ignacioperrotta/Lab6/Lab6/obj/Debug/Lab6.pdb
